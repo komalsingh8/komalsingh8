@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+
+.header {
+    background: linear-gradient(45deg, #0056a6, #0072bb);
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.header h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.video-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background: #0072bb;
+    border-radius: 50%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    transition: background 0.3s ease-in-out;
+}
+
+.video-button:hover {
+    background: #0056a6;
+}
+
+.play-icon {
+    font-size: 1.5em;
+}
+
+
+.quote {
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: #f7f7f7;
+    font-style: italic;
+    text-align: left;
+    font-size: 1.2em;
+    color: #555;
+    border-left: 4px solid #0072bb;
+    margin: 20px 0;
+}
+
+.quote img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+
+.biography {
+    padding: 40px 20px;
+    color: #444;
+}
+
+.biography h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.biography p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+    font-size: 1.1em;
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0056a6;
+    color: #fff;
+    font-size: 1em;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px dotted #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+footer p a:hover {
+    color: #ddd;
+}
